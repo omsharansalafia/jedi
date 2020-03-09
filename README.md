@@ -5,7 +5,9 @@ This repository contains the output of the semi-analytical calculations presente
 
 The repository contains two folders, LGRB and SGRB, containing the simulated populations of Long Gamma-Ray Bursts and Short Gamma-Ray Bursts respectively.
 
-Each folder contains a series of hdf5 files, each containing a simulated population of jets.
+Each folder contains a series of hdf5 files, each containing a simulated population of jets. The naming convention is as follows:
+- for LGRBs, the file name is long_Lxx.x_Tyy.y_thjz.zzz.hdf5, where xx.x is the base 10 logarithm of the center of the injected jet luminosity distirbution, in erg/s; yy.y is the center of the injection duration distribution in seconds; z.zzz is the jet opening angle at launch, in rad
+- for SGRBs, the file name is short_Lxx.x_Tyy.y_thjz.zzz_tdu.uu.hdf5, where xx.x is the base 10 logarithm of the center of the injected jet luminosity distirbution, in erg/s; yy.y is the center of the injection duration distribution in seconds; z.zzz is the jet opening angle at launch, in rad; u.uu is the delay between merger and jet injection, in seconds.
 
 Each hdf5 file contains the following elements:
 - N_events: the number of jets in the synthetic population (int)
