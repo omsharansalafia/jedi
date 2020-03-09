@@ -1,2 +1,2 @@
-# jedi
-Gamma-ray burst jet structure distributions from jet propagation and breakout semi-analytical modeling
+# JEDI
+## Gamma-ray burst **je**t structure **di**stributions from jet propagation and breakout semi-analytical modeling
