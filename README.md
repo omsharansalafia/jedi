@@ -1,7 +1,7 @@
 # JEDI
 ## Gamma-ray burst *je*t structure *di*stributions from jet propagation and breakout semi-analytical modeling
 
-This repository contains the output of the semi-analytical calculations presented in Salafia, Barbieri, Ascenzi and Toffano (2020) - https://arxiv.org/abs/1907.07599
+This repository contains the output of the semi-analytical calculations presented in Salafia, Barbieri, Ascenzi and Toffano (2020) - Astronomy & Astrophysics, Volume 636, id.A105, doi:10.1051/0004-6361/201936335 , arxiv:1907.07599
 
 The repository contains two folders, LGRB and SGRB, containing the simulated populations of Long Gamma-Ray Bursts and Short Gamma-Ray Bursts respectively.
 
